@@ -1,0 +1,33 @@
+.navbar-light .navbar-nav .nav-link
+{   
+    color: var(--secondary-color);
+  
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{   
+    color: var(--primary-color);  
+    text-decoration: underline;
+}
+.log
+{
+    background-color:rgb(246, 77, 58);
+    transition: 0.3s;
+    border-radius: 5px;
+    transform: scaleX();
+}
+.log:hover
+{
+    background-color: palevioletred;
+    padding: 2px 2px;
+    border-radius: 20px;
+}
+
+.navbar-brand
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    padding: 10px 10px;
+    box-shadow: 0 0 30px rgb(15, 13, 13);
+    
+}
+
